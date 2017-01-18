@@ -8,6 +8,7 @@ class ComposerStaticInit134aadf710d0c17d66212b2cc199f0aa
 {
     public static $files = array (
         '9b552a3cc426e3287cc811caefa3cf53' => __DIR__ . '/..' . '/topthink/think-helper/src/helper.php',
+        '1cfd2761b63b0a29ed23657ea394cb2d' => __DIR__ . '/..' . '/topthink/think-captcha/src/helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -15,6 +16,7 @@ class ComposerStaticInit134aadf710d0c17d66212b2cc199f0aa
         array (
             'think\\helper\\' => 13,
             'think\\composer\\' => 15,
+            'think\\captcha\\' => 14,
             'think\\' => 6,
         ),
     );
@@ -27,6 +29,10 @@ class ComposerStaticInit134aadf710d0c17d66212b2cc199f0aa
         'think\\composer\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-installer/src',
+        ),
+        'think\\captcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-captcha/src',
         ),
         'think\\' => 
         array (
