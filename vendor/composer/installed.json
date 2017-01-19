@@ -171,5 +171,44 @@
             }
         ],
         "description": "captcha package for thinkphp5"
+    },
+    {
+        "name": "5ini99/think-auth",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/5ini99/think-auth.git",
+            "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/5ini99/think-auth/zipball/f9f20d18b5e400d67312a7ca75e4dc35be630a4c",
+            "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-11-02T06:26:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\auth\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "xiaobo.sun",
+                "email": "xiaobo.sun@qq.com"
+            }
+        ],
+        "description": "auth package for thinkphp5",
+        "homepage": "https://github.com/5ini99/think-auth"
     }
 ]
